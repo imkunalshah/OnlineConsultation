@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">OnlineConsultation</string>
+
+    <string name="SEND">SEND</string>
+    <string name="drname">Doctor Name</string>
+    <string name="rating">Rating</string>
+    <string name="consult_online">Consult Online</string>
+    <string name="search_health_problem_symptoms">Search Health Problem / Symptoms</string>
+    <string name="cold_cough">Cold, Cough, Fever etc</string>
+    <string name="know_speciality">Know Speciality ?</string>
+    <string name="top_specialities">Select from top specialities</string>
+    <string name="doctors">Doctors</string>
+    <string name="next">NEXT</string>
+    <string name="select_city">Select Your City</string>
+    <string name="Search">Search here</string>
+    <string name="current_location">Use Current Location</string>
+    <string name="mobile_no">Mobile Number</string>
+    <string name="fb">Facebook</string>
+    <string name="google">Google</string>
+    <string name="ph_no">Phone Number</string>
+    <string name="submit">SUBMIT</string>
+    <string name="code">Enter Code</string>
+    <string name="resend">Re-send</string>
+    <string name="Category">Category Name</string>
+    <string name="qual">Qualifications</string>
+    <string name="dr_name">Dr. ABC XYZ</string>
+    <string name="loc">Location</string>
+    <string name="dr">Doctor</string>
+    <string name="medicines">Medicines</string>
+    <string name="Diagnosis">Diagnosis</string>
+    <string name="dr_nearby">Doctors nearby you</string>
+    <string name="see_all">See All</string>
+    <string name="contact">Contact</string>
+    <string name="person_name">Person Name</string>
+    <string name="my_dr">My Doctors</string>
+    <string name="my_appoint">My Appointments</string>
+    <string name="my_consult">Online Consultation</string>
+    <string name="medical_records">Medical Records</string>
+    <string name="reminders">Reminders</string>
+    <string name="health_interest">Health Interest</string>
+    <string name="my_payments">My Payments</string>
+    <string name="offers">Offers</string>
+    <string name="city">City</string>
+    <string name="home">Home</string>
+    <string name="chat">Chat</string>
+    <string name="acc">Account</string>
+    <string name="changelanguage">Change App Language</string>
+    <string name="order_with_prescription">Order quickly with prescription</string>
+    <string name="order_with_prescription_details">"Upload prescription and tell us what you need. We do the rest! "</string>
+
+</resources>

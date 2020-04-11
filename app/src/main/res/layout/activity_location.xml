@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Location.Location"
+    android:background="#F5F5F5">
+
+    <FrameLayout
+        android:id="@+id/frame"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:background="@drawable/rectangle"
+            android:layout_width="match_parent"
+            android:layout_height="190dp" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_width="25dp"
+                android:layout_height="28dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="75dp"
+                android:background="@drawable/cross" />
+
+            <TextView
+                android:fontFamily="@font/poppins_bold"
+                android:textSize="17sp"
+                android:textColor="#FFFFFF"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="75dp"
+                android:text="@string/select_city"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="150dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/white_circle">
+
+            <ImageView
+                android:layout_width="35dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="20dp"
+                android:background="@drawable/zoom_in" />
+
+            <EditText
+                android:background="@android:color/transparent"
+                android:layout_marginLeft="20dp"
+                android:layout_width="251dp"
+                android:layout_height="match_parent"
+                android:hint="@string/Search" />
+        </LinearLayout>
+
+    </FrameLayout>
+
+    <LinearLayout
+        android:id="@+id/getcurrentlocation"
+        android:layout_marginTop="200dp"
+        android:background="@android:color/transparent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:background="@drawable/location" />
+
+            <TextView
+                android:id="@+id/currloc"
+                android:textColor="#404040"
+                android:layout_marginTop="45dp"
+                android:layout_marginLeft="100dp"
+                android:textSize="14sp"
+                android:fontFamily="@font/poppins_regular"
+                android:text="@string/current_location"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+        </FrameLayout>
+
+    </LinearLayout>
+
+<!--    <ScrollView-->
+<!--        android:background="@drawable/white_circle1"-->
+<!--        android:layout_marginTop="300dp"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content">-->
+
+<!--       -->
+
+<!--    </ScrollView>-->
+
+    <LinearLayout
+        android:background="@drawable/white_circle1"
+        android:layout_marginTop="300dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ListView
+            android:layout_marginTop="20dp"
+            android:id="@+id/citylist"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:divider="#8F8E8E"
+            android:dividerHeight="1dp"
+            />
+    </LinearLayout>
+
+
+</RelativeLayout>

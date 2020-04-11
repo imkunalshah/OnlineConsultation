@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F5F5F5">
+
+    <RelativeLayout
+        android:id="@+id/frame"
+        android:layout_width="fill_parent"
+        android:layout_height="260dp"
+        android:background="#F5F5F5"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="190dp"
+            android:background="@drawable/rectangle" />
+
+        <TextView
+            android:layout_alignParentLeft="true"
+            android:layout_marginTop="60dp"
+            android:layout_marginLeft="20dp"
+            android:textSize="17sp"
+            android:text="Medico"
+            android:fontFamily="@font/poppins_bold"
+            android:textColor="@android:color/white"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:id="@+id/location"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="60dp"
+            android:layout_marginRight="20dp"
+            android:textSize="14sp"
+            android:text="@string/loc"
+            android:fontFamily="@font/poppins_bold"
+            android:textColor="@android:color/white"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+
+        <ImageView
+            android:layout_marginTop="140dp"
+            android:layout_alignParentLeft="true"
+            android:layout_width="160dp"
+            android:layout_height="160dp"
+            android:background="@drawable/circle" />
+
+        <ImageView
+            android:layout_marginTop="140dp"
+            android:layout_centerHorizontal="true"
+            android:layout_width="160dp"
+            android:layout_height="160dp"
+            android:background="@drawable/circle" />
+
+        <ImageView
+            android:layout_marginTop="140dp"
+            android:layout_alignParentRight="true"
+            android:layout_width="160dp"
+            android:layout_height="160dp"
+            android:background="@drawable/circle" />
+
+
+        <ImageView
+            android:id="@+id/doctor"
+            android:layout_width="51dp"
+            android:layout_height="46dp"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="54dp"
+            android:layout_marginTop="170dp"
+            android:background="@drawable/doctor" />
+
+        <ImageView
+            android:id="@+id/medicines"
+            android:layout_width="43dp"
+            android:layout_height="44dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="170dp"
+            android:background="@drawable/pill" />
+
+
+        <ImageView
+            android:id="@+id/diagnosis"
+            android:layout_width="57dp"
+            android:layout_height="41dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="170dp"
+            android:layout_marginEnd="55dp"
+            android:layout_marginRight="56dp"
+            android:background="@drawable/diagonostics" />
+
+        <TextView
+            android:layout_marginLeft="60dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="220dp"
+            android:layout_alignParentLeft="true"
+            android:fontFamily="@font/poppins_bold"
+            android:text="@string/dr"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_centerHorizontal="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="220dp"
+            android:fontFamily="@font/poppins_bold"
+            android:text="@string/medicines"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_marginRight="20dp"
+            android:layout_width="92dp"
+            android:layout_height="28dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="220dp"
+            android:fontFamily="@font/poppins_bold"
+            android:text="@string/Diagnosis"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_below="@+id/frame"
+        android:id="@+id/scrollView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <RelativeLayout
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_marginTop="20dp"
+                android:textColor="#3F4079"
+                android:id="@+id/docnearby"
+                android:layout_below="@+id/banner"
+                android:textSize="17sp"
+                android:layout_marginLeft="10dp"
+                android:layout_alignParentStart="true"
+                android:text="@string/dr_nearby"
+                android:fontFamily="@font/poppins_bold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:layout_marginTop="20dp"
+                android:layout_below="@+id/banner"
+                android:textColor="#3A58FC"
+                android:fontFamily="@font/poppins_bold"
+                android:textSize="17sp"
+                android:text="@string/see_all"
+                android:layout_alignParentEnd="true"
+                android:layout_marginEnd="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <androidx.cardview.widget.CardView
+
+                android:id="@+id/banner"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="10dp"
+                app:cardCornerRadius="6dp">
+
+                <com.example.sliderviewlibrary.SliderView
+                    android:id="@+id/imageSlider"
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp" />
+
+            </androidx.cardview.widget.CardView>
+
+            <HorizontalScrollView
+                android:id="@+id/docnear"
+                android:layout_marginTop="30dp"
+                android:layout_below="@+id/docnearby"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fillViewport="true">
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/doctors"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerVertical="true"
+                    android:scrollbars="horizontal" />
+
+            </HorizontalScrollView>
+
+
+
+            <TextView
+                android:layout_below="@id/docnear"
+                android:id="@+id/logout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="20dp"
+                android:text="Log Out"
+                />
+
+        </RelativeLayout>
+    </ScrollView>
+
+</RelativeLayout>

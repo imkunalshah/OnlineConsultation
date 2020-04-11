@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="#F5F5F5">
+
+    <FrameLayout
+        android:id="@+id/fragment_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/navi_view"/>
+
+<!--    <RelativeLayout-->
+<!--        android:id="@+id/frame"-->
+<!--        android:layout_width="fill_parent"-->
+<!--        android:layout_height="260dp"-->
+<!--        android:background="#F5F5F5"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toTopOf="parent">-->
+
+<!--        <ImageView-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="190dp"-->
+<!--            android:background="@drawable/rectangle" />-->
+
+<!--        <TextView-->
+<!--            android:layout_alignParentLeft="true"-->
+<!--            android:layout_marginTop="60dp"-->
+<!--            android:layout_marginLeft="20dp"-->
+<!--            android:textSize="17sp"-->
+<!--            android:text="Medico"-->
+<!--            android:fontFamily="@font/poppins_bold"-->
+<!--            android:textColor="@android:color/white"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"/>-->
+
+<!--        <TextView-->
+<!--            android:id="@+id/location"-->
+<!--            android:layout_alignParentRight="true"-->
+<!--            android:layout_marginTop="60dp"-->
+<!--            android:layout_marginRight="20dp"-->
+<!--            android:textSize="14sp"-->
+<!--            android:text="Location"-->
+<!--            android:fontFamily="@font/poppins_bold"-->
+<!--            android:textColor="@android:color/white"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"/>-->
+
+
+<!--            <ImageView-->
+<!--                android:layout_marginTop="140dp"-->
+<!--                android:layout_alignParentLeft="true"-->
+<!--                android:layout_width="160dp"-->
+<!--                android:layout_height="160dp"-->
+<!--                android:background="@drawable/circle" />-->
+
+<!--            <ImageView-->
+<!--                android:layout_marginTop="140dp"-->
+<!--                android:layout_centerHorizontal="true"-->
+<!--                android:layout_width="160dp"-->
+<!--                android:layout_height="160dp"-->
+<!--                android:background="@drawable/circle" />-->
+
+<!--            <ImageView-->
+<!--                android:layout_marginTop="140dp"-->
+<!--                android:layout_alignParentRight="true"-->
+<!--                android:layout_width="160dp"-->
+<!--                android:layout_height="160dp"-->
+<!--                android:background="@drawable/circle" />-->
+
+
+<!--        <ImageView-->
+<!--            android:layout_width="56dp"-->
+<!--            android:layout_height="49dp"-->
+<!--            android:layout_alignParentLeft="true"-->
+<!--            android:layout_marginLeft="54dp"-->
+<!--            android:layout_marginTop="170dp"-->
+<!--            android:background="@drawable/doctor" />-->
+
+<!--        <ImageView-->
+<!--            android:layout_width="43dp"-->
+<!--            android:layout_height="44dp"-->
+<!--            android:layout_centerHorizontal="true"-->
+<!--            android:layout_marginTop="170dp"-->
+<!--            android:background="@drawable/pill" />-->
+
+
+<!--        <ImageView-->
+<!--            android:layout_width="55dp"-->
+<!--            android:layout_height="47dp"-->
+<!--            android:layout_alignParentRight="true"-->
+<!--            android:layout_marginTop="170dp"-->
+<!--            android:layout_marginEnd="55dp"-->
+<!--            android:background="@drawable/diagonostics" />-->
+
+<!--        <TextView-->
+<!--            android:layout_marginLeft="60dp"-->
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:layout_marginTop="220dp"-->
+<!--                    android:layout_alignParentLeft="true"-->
+<!--                    android:fontFamily="@font/poppins_bold"-->
+<!--                    android:text="Doctor"-->
+<!--                    android:textSize="14sp"-->
+<!--                    android:textStyle="bold" />-->
+
+<!--                <TextView-->
+<!--                    android:layout_centerHorizontal="true"-->
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:layout_marginTop="220dp"-->
+<!--                    android:fontFamily="@font/poppins_bold"-->
+<!--                    android:text="Medicines"-->
+<!--                    android:textSize="14sp"-->
+<!--                    android:textStyle="bold" />-->
+
+<!--                <TextView-->
+<!--                    android:layout_marginRight="20dp"-->
+<!--                    android:layout_width="92dp"-->
+<!--                    android:layout_height="28dp"-->
+<!--                    android:layout_alignParentRight="true"-->
+<!--                    android:layout_marginTop="220dp"-->
+<!--                    android:fontFamily="@font/poppins_bold"-->
+<!--                    android:text="Diagnosis"-->
+<!--                    android:textSize="14sp"-->
+<!--                    android:textStyle="bold" />-->
+
+<!--    </RelativeLayout>-->
+
+<!--    <ScrollView-->
+<!--        android:id="@+id/scrollView3"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        app:layout_constraintBottom_toBottomOf="parent"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toTopOf="parent">-->
+
+<!--        <RelativeLayout-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content">-->
+
+<!--            <androidx.cardview.widget.CardView-->
+<!--                android:id="@+id/banner"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_marginLeft="10dp"-->
+<!--                android:layout_marginTop="10dp"-->
+<!--                android:layout_marginRight="10dp"-->
+<!--                android:layout_marginBottom="10dp"-->
+<!--                app:cardCornerRadius="6dp">-->
+
+<!--                <com.example.sliderviewlibrary.SliderView-->
+<!--                    android:id="@+id/imageSlider"-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="150dp" />-->
+
+<!--            </androidx.cardview.widget.CardView>-->
+
+
+<!--        </RelativeLayout>-->
+<!--    </ScrollView>-->
+
+
+<!--    <HorizontalScrollView-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:fillViewport="true"-->
+<!--        app:layout_constraintBottom_toBottomOf="parent"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintHorizontal_bias="0.043"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toTopOf="parent"-->
+<!--        app:layout_constraintVertical_bias="0.898">-->
+
+<!--        <androidx.recyclerview.widget.RecyclerView-->
+<!--            android:id="@+id/doctors"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_centerHorizontal="true"-->
+<!--            android:layout_centerVertical="true"-->
+<!--            android:scrollbars="horizontal" />-->
+
+<!--    </HorizontalScrollView>-->
+
+<!--    <TextView-->
+<!--        android:id="@+id/logout"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_centerHorizontal="true"-->
+<!--        android:layout_marginTop="316dp"-->
+<!--        android:text="Log Out"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintHorizontal_bias="0.498"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toBottomOf="@+id/frame" />-->
+
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:background="@android:color/white"
+        app:itemIconTint="@android:color/holo_blue_dark"
+        app:itemTextColor="@android:color/black"
+        android:id="@+id/navi_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        app:menu="@menu/bottom_navigation" />
+
+</RelativeLayout>

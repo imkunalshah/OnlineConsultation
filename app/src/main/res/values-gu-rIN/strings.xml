@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">OnlineConsultation</string>
+
+    <string name="all_group_channels">Group Channels</string>
+    <string name="SEND">મોકલો</string>
+    <string name="drname">ડોક્ટરનું નામ</string>
+    <string name="rating">રેટિંગ</string>
+    <string name="consult_online">ઓનલાઇન સલાહ લો</string>
+    <string name="search_health_problem_symptoms">આરોગ્ય સમસ્યા / લક્ષણો શોધો</string>
+    <string name="cold_cough">શરદી, ખાંસી, તાવ વગેરે</string>
+    <string name="know_speciality">વિશેષતા જાણો છો?</string>
+    <string name="top_specialities">ટોચની વિશેષતામાંથી પસંદ કરો</string>
+    <string name="doctors">ડોકટરો</string>
+    <string name="next">આગળ</string>
+    <string name="select_city">તમારું શહેર પસંદ કરો</string>
+    <string name="Search">અહીં શોધો</string>
+    <string name="current_location">વર્તમાન સ્થાન વાપરો</string>
+    <string name="mobile_no">મોબાઇલ નંબર</string>
+    <string name="fb">ફેસબુક</string>
+    <string name="google">ગુગલ</string>
+    <string name="ph_no">ફોન નંબર</string>
+    <string name="submit">સબમિટ કરો</string>
+    <string name="code">કોડ દાખલ કરો</string>
+    <string name="resend">ફરીથી મોકલો</string>
+    <string name="Category">વર્ગ નામ</string>
+    <string name="qual">લાયકાત</string>
+    <string name="dr_name">Dr. ABC XYZ</string>
+    <string name="loc">સ્થાન</string>
+    <string name="dr">ડોક્ટર</string>
+    <string name="medicines">દવાઓ</string>
+    <string name="Diagnosis">નિદાન</string>
+    <string name="dr_nearby">તમારી નજીકના ડોકટરો</string>
+    <string name="see_all">બધા જુઓ</string>
+    <string name="contact">સંપર્ક કરો</string>
+    <string name="person_name">વ્યક્તિનું નામ</string>
+    <string name="my_dr">મારા ડોક્ટર</string>
+    <string name="my_appoint">મારી નિમણૂંક</string>
+    <string name="my_consult">ઓનલાઇન પરામર્શ</string>
+    <string name="medical_records">તબીબી રેકોર્ડ</string>
+    <string name="reminders">રીમાઇન્ડર્સ</string>
+    <string name="health_interest">આરોગ્ય રસ</string>
+    <string name="my_payments">મારી ચુકવણીઓ</string>
+    <string name="offers">ઓફર</string>
+    <string name="city">શહેર</string>
+    <string name="home">ખેર</string>
+    <string name="chat">વાત</string>
+    <string name="acc">ખાતું</string>
+    <string name="changelanguage">એપ્લિકેશન ભાષા બદલો</string>
+    <string name="order_with_prescription">Order quickly with prescription</string>
+    <string name="order_with_prescription_details">"Upload prescription and tell us what you need. We do the rest! "</string>
+</resources>

@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DoctorDetailsActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="match_parent"
+                android:layout_height="213dp"
+                android:background="@drawable/rectangle" />
+
+            <ImageView
+                android:id="@+id/doc_details"
+                android:layout_width="match_parent"
+                android:layout_height="304dp"
+                android:background="@drawable/rectangle2"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="100dp"/>
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:layout_marginTop="60dp"
+                android:layout_gravity="center_horizontal"
+                android:id="@+id/profile_image"
+                android:layout_width="96dp"
+                android:layout_height="96dp"
+                android:src="@drawable/profile"
+                app:civ_border_width="2dp"
+                app:civ_border_color="#FF000000"
+                android:layout_centerHorizontal="true"/>
+
+            <TextView
+                android:id="@+id/drname"
+                android:textSize="17sp"
+                android:textColor="@android:color/black"
+                android:text="@string/drname"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="0dp"
+                android:fontFamily="@font/poppins_bold"
+                android:layout_below="@id/profile_image"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <ImageView
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="125dp"
+                android:layout_marginRight="100dp"
+                android:layout_width="39dp"
+                android:layout_height="35dp"
+                android:background="@drawable/star" />
+
+            <TextView
+                android:textColor="@android:color/black"
+                android:textSize="17sp"
+                android:text="@string/rating"
+                android:fontFamily="@font/poppins_bold"
+                android:id="@+id/rating"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="130dp"
+                android:layout_marginRight="40dp" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_below="@id/doc_details"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/rectangle2" />
+
+            <LinearLayout
+                android:layout_marginTop="40dp"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@+id/doc_details"
+                android:id="@+id/consultonline"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/rounded2"
+                >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginBottom="10dp"
+                    android:text="@string/consult_online"
+                    android:textColor="@android:color/white"
+                    android:textSize="14sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+        </RelativeLayout>
+    </ScrollView>
+
+
+
+</RelativeLayout>
